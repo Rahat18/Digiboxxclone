@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Image</title>
+    <style type="text/css">
+      
+    </style>
+</head>
+<body>
+    <div class="container1" style="width: 100%;  ">
+
+       
+
+            <img src="./Group 1 35 (1).svg" 
+            style="float: right;   
+                    width: 35%;
+                    height:100%;
+                    object-fit:contain;" >
+          
+    </div>
+    <div class="footer" style="width: 100%; 
+                            display: flex;
+                            justify-content: flex-end;">
+        
+        <p>Copyright © 2023 Digiboxx. All rights reserved | Terms of Service</p>
+    </div>
+
+</body>
+</html>
+
