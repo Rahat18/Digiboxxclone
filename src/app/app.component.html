@@ -1,0 +1,62 @@
+<!-- <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your email</mat-label>
+      <input matInput placeholder="pat@example.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+ 
+
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your password</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+    </mat-form-field>
+
+  </div> -->
+  
+<div class="container1" style="width: 100%;">
+  <mat-card class="logo-card">
+    <img _ngcontent-xyv-c159="" src="../assets/img/logo/DigiboxxLogo.svg" width="178" height="43" alt="Digiboxx" title="Digiboxx" class="img-fluid">
+  <mat-card class="subcard">
+    <img _ngcontent-xyv-c159="" src="../assets/img/card/Group 1 35 (1).svg" width="178" height="43" alt="Digiboxx" title="Digiboxx" class="img-fluid">
+  </mat-card>
+</mat-card>
+</div>
+  
+
+  <mat-card>
+    <mat-card-content>
+        <div class="header">
+            <h2>LOGIN</h2>
+        </div>
+        <form (ngSubmit) = "onLogin()" name="loginForm" [formGroup] = "loginForm">
+            <div class ="email-input">
+              <mat-form-field appearance="fill">
+                <mat-label>Enter your email</mat-label>
+                <input matInput placeholder="pat@example.com" formControlName="email" required>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+              </mat-form-field>
+            </div>
+            <div>
+                
+                <mat-form-field appearance="fill">
+                  <mat-label>Enter your password</mat-label>
+                  <input  formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+                  <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                  </button>
+                 
+                </mat-form-field>
+            </div>
+           <div><span class ="aLink">Forgot password</span></div> 
+           <div><button mat-flat-button color="primary">Login</button>
+          <p *ngIf="responseData k" >Login Successful!</p>
+        </div> 
+        
+        </form>
+    </mat-card-content>
+</mat-card> 
+

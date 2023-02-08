@@ -1,0 +1,83 @@
+
+
+
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  img {
+    border: none;
+    outline: 0;
+    max-width: 200%;
+    height: auto;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+h2{
+    
+        color: #2f7bf3;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+      
+ }
+
+ .mat-mdc-card {
+    position: relative;
+    border-radius: var(--mdc-elevated-card-container-shape, var(--mdc-shape-medium, 4px));
+    background-color: var(--mdc-elevated-card-container-color, transparent);
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--mdc-elevated-card-container-color, transparent);
+}
+ .mat-mdc-card.img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 100px 0 0 100px;
+    position: relative;
+    -o-object-position: 27%;
+    object-position: 27%;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+
+.logo-card {
+display: flex;
+flex-direction: row;
+}
+.logo-card.subcard{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+
+
+
+
+
+
+/* <-----------!------------------> */
+
+.container1{
+  float: right;   
+                    width: 35%;
+                    height:100%;
+                    object-fit:contain;
+}
